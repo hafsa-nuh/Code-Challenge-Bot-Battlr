@@ -2,8 +2,7 @@ import React from "react";
 import BotCard from "./BotCard";
 
 function YourBotArmy({ collection, setCollection,  removeCollection}) {
-
-  // adding the list selected
+  // a function for removing the botCard from youtBotArmy section (to clear the yourBotArmy section)
   function addList(bot) {
     setCollection(
       collection.map((bots) =>
