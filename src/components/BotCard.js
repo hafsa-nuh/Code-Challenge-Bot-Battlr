@@ -10,6 +10,7 @@ const botTypeClasses = {
 };
 
 const BotCard = ({ bot, addList, removeCollection }) => {
+  
   return (
     <div className="ui column">
       <div className="ui card" key={bot.id} 
